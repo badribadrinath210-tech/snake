@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0a0b0e;
+  --color-brand-surface: #11141b;
+  --color-brand-surface-highlight: #0d0f14;
+  --color-brand-border: #1a1c23;
+  --color-brand-text: #e0e0e0;
+  --color-brand-cyan: #00f3ff;
+  --color-brand-green: #39ff14;
+  --color-brand-pink: #ff0055;
+  --color-brand-game-bg: #050608;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  overflow-x: hidden;
+}
+
